@@ -1,0 +1,206 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+/* title section */
+
+#title {
+  background-color: #ff4c68;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding : 3% 15%;
+  padding-bottom: 250px;
+
+}
+.download-button{
+  margin : 5% 3% 5% 0;
+}
+
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+
+
+}
+.title-picture {
+  position: relative;
+}
+
+
+
+.pricing-text, .cta-line {
+
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+
+p {
+  color : #8f8f8f;
+}
+.container-fluid {
+  padding: 7% 15%
+
+
+}
+
+/* navigation bar */
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-weight: bolder;
+  font-size: 2.3rem;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-weight: lighter;
+  font-size: 1.2rem;
+}
+
+/* heading */
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.big-heading {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+/* features */
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.features-heading {
+  font-size: 1.4rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.feature-icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+/* testimonial */
+
+#testimonials {
+
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-text {
+  font-weight: 900;
+  font-size : 2.9rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin : 20px;
+}
+/* press */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+/* Pricing section*/
+#pricing {
+  padding: 7% 15%;
+  text-align: center;
+}
+.pricing-heading {
+  font-size: 1.4rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+.press-log {
+  width: 15%;
+ margin : 20px 20px 50px;
+}
+
+
+.idk {
+  margin-bottom: 57px;
+}
+
+.price-title {
+  font-weight: normal;
+}
+
+.pricing-table {
+  padding: 3% 2%;
+}
+/* cta */
+
+#cta {
+  background-color: #ff4c68;
+}
+.cta-div {
+  text-align: center;
+  padding: 5% 15% 7%;
+
+}
+
+/* footer */
+#footer {
+  text-align: center;
+}
+.footer-div {
+  padding: 3% 7% 2%;
+}
+
+.social-media {
+  color: black;
+  margin : 3% 2% 3% 0;
+
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+  .container-fluid {
+    padding-bottom: 50px;
+  }
+}
